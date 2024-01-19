@@ -12,7 +12,7 @@ pipeline {
         echo 'Testing...'
         snykSecurity(
           snykInstallation: 'snyk@latest',
-          snykTokenId: 'd74d118b-0672-4448-ac4f-f0f9a30e8951',
+          snykTokenId: 'jenkins-snyk-api-token',
           // place other parameters here
         )
       }
