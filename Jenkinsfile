@@ -13,6 +13,7 @@ pipeline {
         snykSecurity(
           snykInstallation: 'snyk@latest',
           snykTokenId: 'jenkins-snyk-api-token',
+          targetFile: 'snyk.yaml',
           // place other parameters here
         )
       }
